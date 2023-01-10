@@ -1,0 +1,160 @@
+.login-container {
+   background-image: var(--primaryGradient);
+   color: var(--primaryFontColor);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: auto;
+   font-family: var(--primaryFont);
+   border-radius: 5px;
+   contain: content;
+}
+
+.button {
+   font-family: var(--primaryFont);
+}
+
+.login-switch {
+   display: flex;
+   height: 50px;
+   width: 100%;
+}
+
+.login-button {
+   background-color: var(--tabColor);
+   width: 100%;
+   font-size: 16px;
+   border: none;
+   font-weight: 500;
+}
+
+.active {
+   background-color: white;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   padding: 16px;
+}
+
+.form-info h2 {
+   font-size: 32px;
+   font-weight: 400;
+   margin: 0;
+   margin-top: -10px;
+}
+
+.form-info p {
+   text-align: center;
+   font-size: 12.8px;
+   margin: 0;
+}
+
+.form-card {
+   display: flex;
+   width: 100%;
+   margin-top: 5px;
+}
+
+.form-card button {
+   background-color: transparent;
+   width: 100%;
+   color: var(--primaryFontColor);
+   font-size: 14px;
+   border: 0.5px solid white;
+   height: 45px;
+   font-weight: 500;
+}
+
+.form-inputbox {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 32px;
+}
+
+.form-input {
+   display: flex;
+   align-items: center;
+   height: 50px;
+   width: 100%;
+   margin-top: 32px;
+   border-radius: 5px;
+   contain: content;
+}
+
+.form-input div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 100%;
+   background-color: white;
+}
+
+.form-input img {
+   height: 15px;
+}
+
+.form-input input {
+   width: 100%;
+   height: 100%;
+   font-size: 16px;
+   font-family: var(--primaryFont);
+
+}
+
+.form-submit {
+   background-color: #1254d0;
+   width: 100%;
+   color: var(--primaryFontColor);
+   font-size: 14px;
+   border: none;
+   height: 45px;
+   font-weight: 500;
+}
+
+
+.login-lastinfo {
+   font-size: 12.8px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.login-security {
+   display: flex;
+   gap: 32px;
+   padding: 16px;
+}
+
+.login-security p {
+   margin: 0;
+   text-align: justify;
+   font-size: 12px;
+}
+
+.login-security div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -16px;
+   background-color: #164578;
+   border-radius: 5px;
+}
+
+.login-security img {
+   width: 100px;
+}
+
+.form-card-selected {
+   background-color: var(--selectColor) !important;
+}
+
+.login-forgot p {
+   text-decoration-line: underline;
+}
+

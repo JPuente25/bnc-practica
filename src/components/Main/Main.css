@@ -1,0 +1,26 @@
+.main-container {
+   display: flex;
+   margin: 0 24px;
+   margin-bottom: 120px;
+}
+
+.form-section {
+   flex: 33%;
+}
+
+.aside-section {
+   flex: 67%;
+}
+
+@media (max-width: 991px){
+   .main-container{
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 768px ){
+   .main-container {
+      margin: 0 16px;
+      margin-bottom: 120px;
+   }
+}

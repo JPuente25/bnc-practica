@@ -1,0 +1,48 @@
+@import '../../index.css';
+
+.header {
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   padding: 0 15px;
+   height: 97px;
+}
+
+.header-logo {
+   display:flex;
+}
+
+.header-img {
+   position: absolute;
+   top: 0px;
+   height: 60px;
+}
+
+.header-datetext {
+   color: var(--secondaryFontColor);
+   font-family: var(--primaryFont);
+   font-size: 18px; 
+   font-weight: 500;
+   margin: 0;
+}
+
+.header-datetext::before {
+   content: url("https://cdn-icons-png.flaticon.com/16/3239/3239948.png");
+   margin-right: 3px;
+}
+
+@media (max-width: 991px){
+   .header {
+      margin-left: 24px;
+      margin-right: 24px;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 12px;
+   }
+
+   .header-img {
+      left: 0;
+   }
+
+ }

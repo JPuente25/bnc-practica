@@ -1,0 +1,25 @@
+.footer {
+   margin-top: 120px;
+   background-image: var(--primaryGradient);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   font-size: 12.8px;
+   text-align: center;
+   font-weight: 500;
+   color: var(--primaryFontColor);
+}
+
+.footer-p {
+   margin: 0;
+   margin-top: 10px;
+}
+
+.footer-p--info {
+   font-weight: 700;
+   color: rgb(255, 255, 0);
+   text-shadow: 0 0 5px black;
+   margin: 0;
+   margin-bottom: 10px;
+}
