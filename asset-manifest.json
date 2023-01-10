@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bnc-practica/static/css/main.09620a13.css",
+    "main.js": "/bnc-practica/static/js/main.17c1900e.js",
+    "index.html": "/bnc-practica/index.html",
+    "main.09620a13.css.map": "/bnc-practica/static/css/main.09620a13.css.map",
+    "main.17c1900e.js.map": "/bnc-practica/static/js/main.17c1900e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09620a13.css",
+    "static/js/main.17c1900e.js"
+  ]
+}
